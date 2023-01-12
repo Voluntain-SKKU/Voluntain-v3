@@ -32,7 +32,7 @@ export default function Page({ titles }) {
         </Typography>
 
         <br></br>
-        <div style={{ width: 900, alignItems: 'center' }}>
+        <div style={{ width: '100%', alignItems: 'center' }}>
           <DiscussionEmbed
             shortname={disqusShortname}
             config={disqusConfig}

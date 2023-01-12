@@ -6,6 +6,7 @@
 .container {
   font-family: 'Noto Sans', sans-serif;
   --hex-parent-height: 100%;
+  display: block;
 }
 
 .titlefont {
@@ -354,9 +355,10 @@
   padding-top:15px;
   padding-bottom:15px;
   margin: 80px;
-  width: 100%;
+  /* width: 90%; */
   align-items: center;
   max-width: 90%;
+  box-sizing: border-box;
 }
 
 .aboutimg {
