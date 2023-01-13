@@ -65,8 +65,9 @@
 /* Main course card*/
 .maincard {
   flex-direction: row;
-  width: 430px;
+  width: 100%;
   margin: .3rem;
+  align-items: center;
 }
 .maincard .title{
   font-size: 2rem;
@@ -83,6 +84,10 @@
   -webkit-line-clamp:3; /* 3줄이상이면 ...으로 줄이기 */ 
   -webkit-box-orient:vertical;
   font-family: 'Montserrat', sans-serif;
+}
+
+.coursecard{
+  width: inherit;
 }
 
 .coursecard a{
@@ -230,7 +235,7 @@
 }
 
 .cardimg {
-  width: 10rem;
+  width: 25%;
   height: fit-content;
   margin: .5rem;
 }

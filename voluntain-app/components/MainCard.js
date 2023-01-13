@@ -16,7 +16,7 @@ export const MainCard = (props)=> {
     return(
         <div className={styles.content}>
         <span className={styles.contenttitle}>Courses</span>
-        <CardGroup style={ {width: 'fit-content'} }>
+        <CardGroup style={ {width: '100%'} }>
             {/* courses 개수만큼 CourseCard 컴포넌트 생성 및 props 전달*/}
             {props.courses.map((course) => (
                     <CourseCard key={course.id}
